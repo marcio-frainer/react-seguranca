@@ -1,0 +1,24 @@
+{
+    "name": "servdesenvsoftplan",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "^16.3.1",
+        "react-bootstrap": "^0.32.1",
+        "react-confirm-alert": "^2.0.2",
+        "react-cookie": "^2.1.4",
+        "react-copy-to-clipboard": "^5.0.1",
+        "react-dom": "^16.3.1",
+        "react-loading": "^1.0.4",
+        "react-scripts": "1.1.4",
+        "react-toastify": "^4.0.0-rc.4",
+        "simple-react-card": "^1.0.0-rc.3",
+        "whatwg-fetch": "^2.0.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}

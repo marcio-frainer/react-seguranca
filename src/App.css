@@ -1,0 +1,40 @@
+.App {
+    font-family: 'Raleway', sans-serif;
+    box-shadow: -3px 7px 27px 0px rgba(0, 0, 0, 0.89);
+    margin-top: 25px;
+}
+
+.App-logo {
+    height: 100px;
+    margin-top: 12px;
+}
+
+.App-brasil {
+    height: 50px;
+}
+
+.App-header {
+    background-color: #b2c9dd;
+    margin-top: 25px;
+    height: 120px;
+    /* padding: 15px; */
+    color: #0067ac;
+    vertical-align: middle;
+    font-family: 'Cabin', sans-serif;
+}
+
+.App-title {
+    font-size: 2.0em;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.App-code {
+    /* height: 250px; */
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 15px;
+}
