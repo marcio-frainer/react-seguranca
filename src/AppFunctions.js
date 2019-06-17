@@ -47,10 +47,10 @@ function buscarDados(params) {
     dados.push(data);
 
     if (params.adicionarObjeto){
-      dados[0].splice(0, 0, params.adicionarObjeto);
+      dados[0].recordset.splice(0, 0, params.adicionarObjeto);
     }
 
-    params.callback(dados[0]);
+    params.callback(dados[0].recordset);
   });
 }
 

@@ -50,6 +50,7 @@ class AppFuncaoSeguranca extends Component {
     this.adicionarFuncoesTela = this.adicionarFuncoesTela.bind(this);
     this.removerCard = this.removerCard.bind(this);
     this.mostrarMensagem = this.mostrarMensagem.bind(this);
+    this.mandarConsole = this.mandarConsole.bind(this);
   }
 
   componentDidMount() {
@@ -369,6 +370,10 @@ class AppFuncaoSeguranca extends Component {
       progressClassName: 'fancy-progress-bar' 
     });
   } 
+
+  mandarConsole(item){
+    console.log(item);
+  }
 
   render() {
     const submit = (e) => { 
